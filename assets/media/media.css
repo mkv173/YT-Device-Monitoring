@@ -1,0 +1,92 @@
+@media (max-width: 1000px) {
+    .container {
+        width: 700px;
+    }
+    .logo {
+        margin-right: 0;
+        width: 160px;
+    }
+    .button_end {
+        padding: 15px 15px;
+    }
+    .idea, .message, .letter {
+        display: none;
+    }
+    .heading {
+        background-position: 415px 15px;
+        background-size: 60%;
+    }
+    .menu-wrapper {
+        margin-bottom: 120px;
+    }
+    .text {
+        font-size: 42px;
+        height: 96px;
+    }
+    .frame {
+        border-bottom: none;
+        padding-bottom:0;
+    }
+    .main {
+        padding: 100px 0 0;
+    }
+    .community__boys::before {
+        top: 60px;
+        right: 165px;
+    }
+    .main__text {
+        font-size: 27px;
+    }
+    .community__paragraph {
+        font-size: 15px;
+    }
+    .item {
+        width: 225px;
+    }
+    .text__item {
+        font-size: 15px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    .item2 {
+        width: 345px;
+    }
+    .text__item2 {
+        font-size: 15px;
+    }
+    .picture2 {
+        margin-right: 15px;
+    }
+    .item__text2 {
+        font-size: 14px;
+    }
+    .post {
+        font-size: 14px;
+        line-height: 135%;
+    }
+    .subscription {
+        padding: 40px 120px;
+    }
+    .subscription__title {
+        font-size: 24px;
+    }
+    .subscription__text {
+        font-size: 15px;
+    }
+    .footer {
+        padding-top: 35px;
+    }
+    .section {
+        padding: 45px 0;
+    }
+    .footer__logo__text {
+        font-size: 15px;
+    }
+    .footer__menu__linc {
+        font-size: 13px;
+    }
+    .mail {
+        font-size: 13px;
+    }
+
+}
