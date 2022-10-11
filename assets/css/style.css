@@ -102,17 +102,17 @@
 .letter {
     position: absolute;
     top: 445px;
-    left: 537px;
+    left: 470px;
 }
 .idea {
     position: absolute;
     top: 131px;
-    left: 595px;
+    left: 510px;
 }
 .message {
     position: absolute;
     top: 234px;
-    left: 1081px;
+    left: 1030px;
 }
 .title {
     color: #2D74FF;
@@ -145,7 +145,7 @@
     border-bottom: 2px solid #0000000F;
     padding-bottom: 202px;
 }
-.button {
+.button_digtal{
     margin-right: 40px;
 }
 .button__play {
@@ -185,7 +185,6 @@
 }
 .community__boys {
     position: relative;
-
 }
 .community__boys::after {
     display: block;
