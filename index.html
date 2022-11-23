@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>innovated</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/media/media.css">
 </head>
@@ -28,7 +28,7 @@
                         <a href="#" target="_blank" class="menu__link">Reviews</a>
                     </li>
                 </ul>
-                <a class="button button_end" href="#form" onclick="test()">Get started</a>
+                <a class="button button_end" href="#form">Get started</a>
             </div>
             <div class="digtal">
                 <div class="digtal__title">
@@ -37,19 +37,19 @@
                 </div>
                 <div class="girl">
                     <div class="girl__btn letter">
-                        <img src="assets/img/letter.png" alt="Vector">
+                        <img src="assets/img/letter.png" alt="Vector" onclick="showModal('Наш телеграмм', '@123123')">
                     </div>
                     <div class="girl__btn idea">
-                        <img src="assets/img/idea.png" alt="Vector">
+                        <img src="assets/img/idea.png" alt="Vector" onclick="showModal('','Текст сообщения')">
                     </div>
                     <div class="girl__btn message">
-                        <img src="assets/img/message.png" alt="Vector">
+                        <img src="assets/img/message.png" alt="Vector" onclick="showModal('Напишите нам','Текст сообщения')">
                     </div>
                 </div>
             </div>
             <div class="frame">
                 <a class="button button_digtal" href="#">Get started</a>
-                <a class="button__play" href="#"> </a>
+                <a class="button__play" href="#frame"> </a>
                 <p class="play__video">Play video</p>
             </div>
         </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="community__image">
                     <div class="community__boys">
-                        <img class="boys" src="assets/img/boys.png" alt="boys">
+                        <iframe  id="frame" width="560" height="315" src="https://www.youtube.com/embed/m9KJIxzSp7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <button class="button__boys"></button>
                     </div>
                 </div>
@@ -108,16 +108,8 @@
     <div class="container">
         <div class="iframe">
             <h4 class="main__text main__text_dash">What our customar are saying</h4>
-            <div class="iframe__button">
-                <button class="button-arrow button-arrow_left button-arrow_active">
-                    <img src="assets/img/activarrow.png" alt="">
-                </button>
-                <button class="button-arrow button-arrow_active">
-                    <img src="assets/img/activarrow.png" alt="">
-                </button>
-            </div>
         </div>
-        <div class="work">
+        <div class="work owl-carousel owl-my-theme">
             <div class="item2">
                 <p class="text__item2">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique ipsum ultrices sit rutrum
@@ -141,6 +133,20 @@
                     <div class="data">
                         <p class="item__text2">Easin Arafat</p>
                         <p class="post">Product Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item2">
+                <p class="text__item2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique ipsum ultrices sit rutrum
+                    lobortis. Ipsum, nulla nam.
+                </p>
+                <div class="item2__person">
+                    <img class="picture2" src="assets/img/Elon.png" alt="i">
+                    <div class="data">
+                        <p class="item__text2">Elon Musk</p>
+                        <p class="post post_elon">Ceo</p>
                     </div>
                 </div>
             </div>
@@ -179,7 +185,6 @@
                     <li>
                         <a href="#" target="_blank" class="footer__menu__linc">Knowledge</a>
                     </li>
-
                 </ul>
             </div>
             <div class="footer__menu">Pages
@@ -194,7 +199,6 @@
                         <a href="#" target="_blank" class="footer__menu__linc">Communing</a>
                     </li>
                 </ul>
-
             </div>
             <div class="footer__menu">Contact us
                 <div class="Contact__menu">
@@ -215,12 +219,18 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </footer>
+<div class="modal">
+    <div class="modal__title">123</div>
+    <div class="modal__message">123</div>
+    <div class="modal__close" onclick="hideModal()">X</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/script.js"></script>
-
-
 </body>
 </html>
+
+
